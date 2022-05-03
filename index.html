@@ -11,46 +11,47 @@
 
 <body>
     <header>
-        <a id=js-view-leaderboard> View Highscore<i class="fas fa-hand-point-left fa-lg"></i></a>
+        <a id=js-view-leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
 
-        <div class="remaining-timer remaining-time-time--visible">
-            <div id="js-time-remaining"></div>
+        <div class="remaining-time remaining-time--visible">
+            Time: <div id="js-time-remaining"></div>
         </div>
+
     </header>
     <main>
         <section id="js-section-intro" class="active">
-            <h1> Coding Quiz Challenge</h1>
-            <p>Answer the code related questions in the quiz within the time limit.</p>
-            <p> every wrong answer 10 seconds will be deducted from the timer.</p>
-            <p>  Good luck! </p>
+                <h1> Coding Quiz Challenge</h1>
+                <p>Answer the code related questions in the quiz within the time limit.</p>
+                <p> every wrong answer 10 seconds will be deducted from the timer.</p>
+                <p>  Good luck! 🌝 </p>
             <button id="js-quiz-start" class="button button--primary">Start Quiz</button>
         </section>
-        <!-- Start Highscores -->
-        <section id ="js-section-highscore-input" class="phase-enter-intials"></section>
-        <!-- End Highscores -->
 
-        <!--Start: Leaderboard-->
-        <section id="js-section-leaderboard"></section>
-        <h1>Highscores</h1>
-        <div class="Highscores-list"></div>
-        <div class="highscore-actions">
-            <button class="highscore-actions_back button button_primary">Go back</button>
-            <button class="highscore-actions_clear button button_primary">Clear highscores</button>
-        </div>
+        <!-- BEGIN: HIGHSCORES -->
+        <section id="js-section-highscore-input" class="phase-enter-initials"></section>
+        <!-- END: HIGHSCORES -->
+
+        <!-- BEGIN: LEADERBOARD -->
+        <section id="js-section-leaderboard">
+            <h1>Highscores</h1>
+            <div class="highscores-list"></div>
+            <div class="highsore-actions">
+                <button class="highscore-actions__back button button__primary">Go back</button>
+                <button class="highscore-actions__clear button button__primary">Clear highscores</button>
+            </div>
         </section>
-        <!--End Leaderboard-->
+        <!-- END: LEADERBOARD -->
 
-        <!-- Start: Questions inputs-->
-        <div id="js-sections-questions" class="sections">
-        <div id="questions"></div>
+        <!-- BEGIN: QUESTION INPUTS -->
+        <div id="js-section-questions" class="section">
+            <div id="questions"></div>
         </div>
-        <!--End: Questions Inputs-->
+        <!-- END: QUESTION INPUTS -->
     </main>
-
     <script src="/Assets/script.js"></script>
-    <script src="/Assets/questions.js"></script>
-
-
+    <script src="/questions.js"></script>
+  
 </body>
 
 </html>
