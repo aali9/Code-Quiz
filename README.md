@@ -14,3 +14,4 @@ https://github.com/aali9/Js-Code-Quiz
 
 Screenshot of Quiz:
 
+![image](https://user-images.githubusercontent.com/74592306/166560200-d164f576-cb2d-4c53-ad2e-bdaaf6a4ed07.png)
